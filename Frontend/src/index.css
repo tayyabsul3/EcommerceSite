@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  scroll-behavior: smooth;
+  background-image: url("https://images.pexels.com/photos/7130548/pexels-photo-7130548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+a:hover {
+  color: rgb(3, 4, 77);
+}
+::selection {
+  background-color: aliceblue;
+  color: rgb(48, 175, 243);
+}
+.bg {
+  background-image: url("https://wallpaperset.com/w/full/b/3/3/67429.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
